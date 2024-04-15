@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.caixa-1{
+    background-color: black;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 25px;
+    color:white;
+}
+
+.caixa-2{
+    margin-top: 15px;
+}
+
+.lupa {
+    height: 15px;
+    width: 15px;
+    
+    
+    
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+   
+}
+
+button:hover{
+    background-color: #7c7c7c;
+    opacity: 40%;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+
+    
+}
+.h1{
+    color: white;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.graus{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  margin-top: 15px;
+
+}
+
+.clima{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.Umidade{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 10px;
+}
